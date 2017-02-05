@@ -6,11 +6,8 @@ body {
 }
 
 h1 {
-	color: #333;
-	font-size: 3em;
-}
-strong {
-    color: #333;
+	color: #464242;
+	font-size: 3.5em;
 }
 
 h2 {
@@ -20,31 +17,22 @@ h2 {
 }
 
 a {
-    transition: .2s;
     font-size: 1.5em;
-}
-
-a:link,
-a:visited {
-    color: #265C83;
+    color: #679dc1;
     text-decoration: none;
 }
 
-a:hover {
-    color: #7FCBFF;
-    text-decoration: none;
+a:active, a:hover {
+    color: #1e4d6f;
+   	border-bottom: solid #76b5e2;
 }
 
-a:active {
-    color: #7FCBFF;
-    text-decoration: none;
+a.current-link {
+   color: #1e4d6f;
+   border-bottom: solid #76b5e2;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
-}
-
-a.current-link {
-   color: #7FCBFF;
 }
