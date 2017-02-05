@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Eric Liu</title>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./resources/favicon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./resources/favicon/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="./resources/favicon/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="./resources/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./resources/imgs/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./resources/imgs/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./resources/imgs/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./resources/imgs/favicon/favicon-16x16.png" sizes="16x16" />
     <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#" />
-    <meta name="msapplication-TileImage" content="./resources/favicon/mstile-144x144.png" />
+    <meta name="msapplication-TileImage" content="./resources/imgs/favicon/mstile-144x144.png" />
     <meta name="description" content="Personal website for general information and random thoughts">
     <meta name="author" content="Chenyang Eric Liu">
     <link rel="stylesheet" href="./css/style.css">
@@ -21,17 +21,33 @@
 
 <body>
     <script src="js/script.js"></script>
-    <div>
-        <h1 class="nav-header">
+    <div class="nav-header">
+        <h1 class="nav-header-text">
             Eric Liu
         </h1>
+        <span class="nav-images">
+            <a href="https://www.linkedin.com/in/liuche" class="nav-image-link" target="_blank">
+            <img class="logo-link-img" alt="" src="./resources/imgs/logos/linkedin.png">
+            </a>
+            <a href="https://www.github.com/ericl1u" class="nav-image-link" target="_blank">
+            <img class="logo-link-img" alt="" src="./resources/imgs/logos/github.png">
+            </a>
+            <a href="https://www.devpost.com/cliu" class="nav-image-link" target="_blank">
+            <img class="logo-link-img-devpost " alt="" src="./resources/imgs/logos/devpost.png">
+            </a>
+            <a href="https://www.facebook.com/ericl1u" class="nav-image-link" target="_blank">
+            <img class="logo-link-img" alt="" src="./resources/imgs/logos/facebook.png">
+            </a>
+        </span>
+    </div>
+    <div>
         <nav>
             <ul class="nav-all-pages">
-                <li class="nav-page"><a href="./index.html">Home</a></li>
-                <li class="nav-page"><a href="./about-me.html">About me</a></li>
-                <li class="nav-page"><a href="./blog.html">Random thoughts</a></li>
-                <li class="nav-page"><a href="./projects.html" class="current-link">Projects</a></li>
-                <li class="nav-page"><a href="./resources/misc/resume.pdf">Resume</a></li>
+                <li class="nav-page"><a href="./index.html" class="nav-page-link current-link">Home</a></li>
+                <li class="nav-page"><a href="./about-me.html" class="nav-page-link">About me</a></li>
+                <li class="nav-page"><a href="./blog.html" class="nav-page-link">Random thoughts</a></li>
+                <li class="nav-page"><a href="./projects.html" class="nav-page-link">Projects</a></li>
+                <li class="nav-page"><a href="./r.pdf" class="nav-page-link">Resume</a></li>
             </ul>
         </nav>
     </div>
