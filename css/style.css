@@ -30,6 +30,7 @@ h1.nav-header-text {
 
 p {
     font-weight: normal;
+    font-size: 1.1em;
     color: #333;
 }
 
@@ -96,4 +97,12 @@ a.current-link {
     font-weight: normal;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.about-me-img {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    max-width: 50em;
+    width: 100%;
+    height: auto;
 }
