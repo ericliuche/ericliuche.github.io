@@ -31,12 +31,13 @@ h1.nav-header-text {
 p {
     font-weight: normal;
     font-size: 1.1em;
-    color: #333;
+    color: #464242;
 }
 
 a {
     text-decoration: none;
     transition: .1s;
+    color: #679dc1;
 }
 
 a.nav-image-link {
@@ -62,7 +63,6 @@ a.nav-image-link:hover {
 
 a.nav-page-link {
     font-size: 1.25em;
-    color: #679dc1;
 }
 
 ul.nav-all-pages {
@@ -100,8 +100,7 @@ a.current-link {
 }
 
 .about-me-img {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 1.5em;
     max-width: 50em;
     width: 100%;
     height: auto;
