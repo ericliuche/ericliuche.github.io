@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     max-width: 50em;
     font-family: "Helvetica", "Arial", sans-serif;
-    color: #555;
+    color: #464242;
 }
 
 .nav-header {
@@ -105,4 +105,35 @@ a.current-link {
     max-width: 50em;
     width: 100%;
     height: auto;
+}
+
+.inline-image-snap {
+  width:1.2em;
+  position: relative;
+  top: 4px;
+}
+
+.inline-image-apple {
+  width:0.9em;
+  position: relative;
+  top: 2px;
+}
+
+.inline-image-dropbox {
+  width:1.2em;
+  position: relative;
+  top: 4px;
+}
+
+.inline-image-google {
+  width:1em;
+  position: relative;
+  top: 2px;
+}
+
+.rubiks-cube-video {
+    width: 560px;
+    height: 315px;
+display: block;
+    margin: auto;
 }
