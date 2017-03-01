@@ -23,6 +23,10 @@ h1.nav-header-text {
     margin-bottom: 0.25em;
 }
 
+.no-bold {
+  font-weight: normal;
+}
+
 .nav-images {
   display: inline-block;
   vertical-align: baseline; 
@@ -132,8 +136,31 @@ a.current-link {
 }
 
 .rubiks-cube-video {
-    width: 560px;
-    height: 315px;
-display: block;
-    margin: auto;
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin: auto;
 }
+
+.blog-navigation {
+  margin-top: 1.3em;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+ float: right;
+}​
+
+.blog-title {
+  text-align: center;
+}
+
+.clear-float {
+  clear: both;
+}
+
