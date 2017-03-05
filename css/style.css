@@ -5,6 +5,11 @@ body {
     color: #464242;
 }
 
+figcaption {
+  margin-top: -1em;
+  font-style: italic;
+}
+
 .nav-header {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -65,14 +70,14 @@ a.nav-image-link:hover {
     width: 2.1em;
 }
 
-ul.nav-all-pages {
+.nav-all-pages {
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
 }
 
-li.nav-page {
+.nav-page {
     list-style-type: none;
 }
 
@@ -86,7 +91,7 @@ a.nav-page-link:hover {
     border-bottom: solid #76b5e2;
 }
 
-a.current-link {
+.current-link {
     color: #1e4d6f;
     border-bottom: solid #76b5e2;
 }
@@ -95,19 +100,16 @@ a.current-link {
   text-align: center;
 }
 
-.center-header {
+.home-center-header {
     font-size: 2.5em;
     color: #333;
-    font-weight: normal;
     margin-top: 1.2em;
     margin-bottom: 1em;
 }
 
-.about-me-img {
+.full-width-img {
     margin-top: 1.5em;
-    max-width: 50em;
     width: 100%;
-    height: auto;
 }
 
 .inline-image-snap {
@@ -134,18 +136,6 @@ a.current-link {
   top: 1px;
 }
 
-.home-logo{
-  margin-left: .15em;
-  width: 1.2em;
-  vertical-align: middle;
-}
-
-.home-logo-northeastern{
-  margin-left: .25em;
-  width: 1.5em;
-  vertical-align: middle;
-}
-
 .rubiks-cube-video {
   width: 560px;
   height: 315px;
@@ -159,65 +149,90 @@ a.current-link {
   font-style: italic;
 }
 
+.clear-float {
+  clear: both;
+}
+
 .align-left {
   float: left;
 }
 
 .align-right {
- float: right;
-}​
-
-.blog-title {
-  text-align: center;
+  float: right;
 }
 
-.clear-float {
-  clear: both;
-}
-
-a.home-northeastern-link {
+.home-northeastern-link {
     color: #c70000;
 }
 
-a.home-northeastern-link:active,
-a.home-northeastern-link:hover {
+.home-northeastern-link:active,
+.home-northeastern-link:hover {
     color: #ff6d6d;
 }
 
-a.home-google-link {
+.home-google-link {
     color: #28b446;
 }
 
-a.home-google-link:active,
-a.home-google-link:hover {
+.home-google-link:active,
+.home-google-link:hover {
     color: #00f334;
 }
 
-a.home-snapchat-link {
+.home-snapchat-link {
     color: #e7e708;
 }
 
-a.home-snapchat-link:active,
-a.home-snapchat-link:hover {
+.home-snapchat-link:active,
+.home-snapchat-link:hover {
     color: #f9f90c;
 }
 
-a.home-dropbox-link {
+.home-dropbox-link {
     color: #0f82e2;
 }
 
-a.home-dropbox-link:active,
-a.home-dropbox-link:hover {
+.home-dropbox-link:active,
+.home-dropbox-link:hover {
     color: #86c8ff;
 }
 
 
-a.home-apple-link {
+.home-apple-link {
     color: #999999;
 }
 
-a.home-apple-link:active,
-a.home-apple-link:hover {
+.home-apple-link:active,
+.home-apple-link:hover {
     color: #e8e8e8;
 }
+
+.home-logo{
+  margin-left: .15em;
+  width: 1.2em;
+  vertical-align: middle;
+  position: relative;
+}
+
+.home-logo-northeastern{
+  margin-left: .15em;
+  width: 1.5em;
+  top: .2em;
+}
+
+.home-logo-google{
+}
+
+.home-logo-snapchat{
+}
+
+.home-logo-dropbox{
+  width: 1.3em;
+}
+
+.home-logo-apple{
+  width: 1.05em;
+  bottom: .2em;
+}
+
 
