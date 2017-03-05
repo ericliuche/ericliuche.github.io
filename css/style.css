@@ -6,6 +6,8 @@ body {
 }
 
 .nav-header {
+  margin-top: 2em;
+  margin-bottom: 1em;
   text-align: justify; 
 }
 
@@ -15,13 +17,10 @@ body {
     width: 100%;
 }
 
-h1.nav-header-text {
-    color: #464242;
-    font-size: 4em;
-    font-weight: normal;
-    display: inline-block;
-    margin-bottom: 0.25em;
-}
+.nav-header-name {
+    width: 20em;
+    overflow: hidden;
+  }
 
 .no-bold {
   font-weight: normal;
@@ -66,10 +65,6 @@ a.nav-image-link:hover {
     width: 2.1em;
 }
 
-a.nav-page-link {
-    font-size: 1.25em;
-}
-
 ul.nav-all-pages {
     display: flex;
     justify-content: space-between;
@@ -79,6 +74,10 @@ ul.nav-all-pages {
 
 li.nav-page {
     list-style-type: none;
+}
+
+a.nav-page-link {
+    font-size: 1.25em;
 }
 
 a.nav-page-link:active,
@@ -97,11 +96,11 @@ a.current-link {
 }
 
 .center-header {
-    font-size: 3em;
-    color: #555;
+    font-size: 2.5em;
+    color: #333;
     font-weight: normal;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
 }
 
 .about-me-img {
@@ -135,6 +134,18 @@ a.current-link {
   top: 1px;
 }
 
+.home-logo{
+  margin-left: .15em;
+  width: 1.2em;
+  vertical-align: middle;
+}
+
+.home-logo-northeastern{
+  margin-left: .25em;
+  width: 1.5em;
+  vertical-align: middle;
+}
+
 .rubiks-cube-video {
   width: 560px;
   height: 315px;
@@ -162,5 +173,51 @@ a.current-link {
 
 .clear-float {
   clear: both;
+}
+
+a.home-northeastern-link {
+    color: #c70000;
+}
+
+a.home-northeastern-link:active,
+a.home-northeastern-link:hover {
+    color: #ff6d6d;
+}
+
+a.home-google-link {
+    color: #28b446;
+}
+
+a.home-google-link:active,
+a.home-google-link:hover {
+    color: #00f334;
+}
+
+a.home-snapchat-link {
+    color: #e7e708;
+}
+
+a.home-snapchat-link:active,
+a.home-snapchat-link:hover {
+    color: #f9f90c;
+}
+
+a.home-dropbox-link {
+    color: #0f82e2;
+}
+
+a.home-dropbox-link:active,
+a.home-dropbox-link:hover {
+    color: #86c8ff;
+}
+
+
+a.home-apple-link {
+    color: #999999;
+}
+
+a.home-apple-link:active,
+a.home-apple-link:hover {
+    color: #e8e8e8;
 }
 
