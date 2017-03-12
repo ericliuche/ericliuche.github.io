@@ -74,6 +74,7 @@ a.nav-image-link:hover {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    margin-bottom: 1em;
 }
 
 .nav-page {
