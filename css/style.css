@@ -6,7 +6,6 @@ body {
 }
 
 figcaption {
-  margin-top: -1em;
   font-style: italic;
 }
 
@@ -108,7 +107,6 @@ a.nav-page-link:hover {
 }
 
 .full-width-img {
-    margin-top: 1.5em;
     width: 100%;
 }
 
