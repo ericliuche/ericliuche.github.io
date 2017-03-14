@@ -140,6 +140,7 @@ a.nav-page-link:hover {
   height: 315px;
   display: block;
   margin: auto;
+  border: 0px;
 }
 
 .blog-navigation {
