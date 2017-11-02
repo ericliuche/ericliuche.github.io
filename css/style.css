@@ -171,7 +171,7 @@ a.nav-page-link:hover {
 }
 
 .home-google-link {
-    color: #28b446;
+    color: #26a741;
 }
 
 .home-google-link:active,
@@ -189,7 +189,7 @@ a.nav-page-link:hover {
 }
 
 .home-dropbox-link {
-    color: #0f82e2;
+    color: #0062ff;
 }
 
 .home-dropbox-link:active,
@@ -205,6 +205,24 @@ a.nav-page-link:hover {
 .home-apple-link:active,
 .home-apple-link:hover {
     color: #e8e8e8;
+}
+
+.home-robinhood-link {
+    color: #20ce99;
+}
+
+.home-robinhood-link:active,
+.home-robinhood-link:hover {
+    color: #25f9b8;
+}
+
+.home-twosigma-link {
+    color: #0099a6;
+}
+
+.home-twosigma-link:active,
+.home-twosigma-link:hover {
+    color: #22dcec;
 }
 
 .home-logo{
@@ -224,15 +242,24 @@ a.nav-page-link:hover {
 }
 
 .home-logo-snapchat{
+  width: 1.4em;
 }
 
 .home-logo-dropbox{
-  width: 1.3em;
+  width: 1.5em;
 }
 
 .home-logo-apple{
   width: 1.18em;
-  bottom: .2em;
+  bottom: .15em;
+}
+
+.home-logo-robinhood{
+  width: 1em;
+}
+
+.home-logo-twosigma{
+  width: 1.4em;
 }
 
 
