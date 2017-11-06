@@ -265,3 +265,7 @@ a.nav-page-link:hover {
 .home-logo-twosigma {
     width: 1.4em;
 }
+
+span.line {
+  display: inline-block;
+}
