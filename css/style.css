@@ -6,16 +6,16 @@ body {
 }
 
 figcaption {
-  font-style: italic;
+    font-style: italic;
 }
 
 .nav-header {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  text-align: justify; 
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: justify;
 }
 
-.nav-header:after{
+.nav-header:after {
     content: '';
     display: inline-block;
     width: 100%;
@@ -24,15 +24,15 @@ figcaption {
 .nav-header-name {
     width: 20em;
     overflow: hidden;
-  }
+}
 
 .no-bold {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .nav-images {
-  display: inline-block;
-  vertical-align: baseline; 
+    display: inline-block;
+    vertical-align: baseline;
 }
 
 p {
@@ -69,6 +69,11 @@ a.nav-image-link:hover {
     width: 2.1em;
 }
 
+.logo-container {
+  text-indent: -4.9em;
+  margin-left: 4.9em;
+}
+
 .nav-all-pages {
     display: flex;
     justify-content: space-between;
@@ -97,7 +102,7 @@ a.nav-page-link:hover {
 }
 
 .text-align-center {
-  text-align: center;
+    text-align: center;
 }
 
 .home-center-header {
@@ -112,53 +117,53 @@ a.nav-page-link:hover {
 }
 
 .inline-image-snap {
-  width:1.2em;
-  position: relative;
-  top: 3px;
+    width: 1.2em;
+    position: relative;
+    top: 3px;
 }
 
 .inline-image-apple {
-  width:0.9em;
-  position: relative;
-  top: 1px;
+    width: 0.9em;
+    position: relative;
+    top: 1px;
 }
 
 .inline-image-dropbox {
-  width:1.2em;
-  position: relative;
-  top: 3px;
+    width: 1.2em;
+    position: relative;
+    top: 3px;
 }
 
 .inline-image-google {
-  width:1em;
-  position: relative;
-  top: 1px;
+    width: 1em;
+    position: relative;
+    top: 1px;
 }
 
 .rubiks-cube-video {
-  width: 560px;
-  height: 315px;
-  display: block;
-  margin: auto;
-  border: 0px;
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: auto;
+    border: 0px;
 }
 
 .blog-navigation {
-  margin-top: 1.3em;
-  font-size: 1.4em;
-  font-style: italic;
+    margin-top: 1.3em;
+    font-size: 1.4em;
+    font-style: italic;
 }
 
 .clear-float {
-  clear: both;
+    clear: both;
 }
 
 .align-left {
-  float: left;
+    float: left;
 }
 
 .align-right {
-  float: right;
+    float: right;
 }
 
 .home-northeastern-link {
@@ -225,41 +230,38 @@ a.nav-page-link:hover {
     color: #22dcec;
 }
 
-.home-logo{
-  margin-left: .15em;
-  width: 1.2em;
-  vertical-align: middle;
-  position: relative;
+.home-logo {
+    margin-left: .15em;
+    width: 1.2em;
+    vertical-align: middle;
+    position: relative;
 }
 
-.home-logo-northeastern{
-  margin-left: .15em;
-  width: 1.5em;
-  top: .2em;
+.home-logo-northeastern {
+    margin-left: .15em;
+    width: 1.5em;
+    top: .2em;
 }
 
-.home-logo-google{
+.home-logo-google {}
+
+.home-logo-snapchat {
+    width: 1.4em;
 }
 
-.home-logo-snapchat{
-  width: 1.4em;
+.home-logo-dropbox {
+    width: 1.5em;
 }
 
-.home-logo-dropbox{
-  width: 1.5em;
+.home-logo-apple {
+    width: 1.18em;
+    bottom: .15em;
 }
 
-.home-logo-apple{
-  width: 1.18em;
-  bottom: .15em;
+.home-logo-robinhood {
+    width: 1em;
 }
 
-.home-logo-robinhood{
-  width: 1em;
+.home-logo-twosigma {
+    width: 1.4em;
 }
-
-.home-logo-twosigma{
-  width: 1.4em;
-}
-
-
