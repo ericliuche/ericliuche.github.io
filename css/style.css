@@ -69,10 +69,15 @@ a.nav-image-link:hover {
     width: 2.1em;
 }
 
-.logo-container {
-  text-indent: -4.9em;
-  margin-left: 4.9em;
-  white-space: nowrap;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .logo-container {
+      text-indent: -5.1em;
+      margin-left: 5.1em;
+      white-space: nowrap;
+    }
 }
 
 .nav-all-pages {
