@@ -69,6 +69,12 @@ a.nav-image-link:hover {
     width: 2.1em;
 }
 
+    .logo-container {
+      text-indent: -50em;
+      margin-left: 50em;
+      white-space: nowrap;
+    }
+
 .nav-all-pages {
     display: flex;
     justify-content: space-between;
