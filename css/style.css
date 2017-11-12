@@ -238,11 +238,14 @@ a.nav-page-link:hover {
     top: .2em;
 }
 
-.home-logo-google {}
+.home-logo-google {
+    width: 1.28em;
+    bottom: .05em;
+}
 
 .home-logo-snapchat {
-    width: 1.33em;
-    bottom: .15em;
+    width: 1.315em;
+    bottom: .05em;
 }
 
 .home-logo-dropbox {
@@ -250,8 +253,8 @@ a.nav-page-link:hover {
 }
 
 .home-logo-apple {
-    width: 1.18em;
-    bottom: .15em;
+    width: 1.2em;
+    bottom: .18em;
 }
 
 .home-logo-robinhood {
@@ -260,4 +263,5 @@ a.nav-page-link:hover {
 
 .home-logo-twosigma {
     width: 1.4em;
+    bottom: .05em;
 }
