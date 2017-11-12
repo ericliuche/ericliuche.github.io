@@ -74,8 +74,8 @@ a.nav-image-link:hover {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .logo-container {
-      text-indent: -5.2em;
-      margin-left: 5.2em;
+      text-indent: -5.5em;
+      margin-left: 5.5em;
       white-space: nowrap;
     }
 }
