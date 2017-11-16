@@ -35,6 +35,10 @@ figcaption {
     vertical-align: baseline;
 }
 
+.no-wrap {
+    white-space: nowrap;
+}
+
 p {
     font-weight: normal;
     font-size: 1.1em;
