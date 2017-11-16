@@ -9,6 +9,24 @@ figcaption {
     font-style: italic;
 }
 
+table { border-spacing: 0px; }
+
+th, td { padding: 0px; }
+
+td h2{
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+tr {
+    text-align: left;
+    vertical-align: top;
+}
+
+tr img {
+    vertical-align: text-top;
+}
+
 .nav-header {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -220,6 +238,7 @@ a.nav-page-link:hover {
     color: #25f9b8;
 }
 
+
 .home-twosigma-link {
     color: #0099a6;
 }
@@ -232,24 +251,20 @@ a.nav-page-link:hover {
 .home-logo {
     margin-left: .15em;
     width: 1.2em;
-    vertical-align: middle;
-    position: relative;
 }
 
 .home-logo-northeastern {
     margin-left: .15em;
     width: 1.5em;
-    top: .2em;
 }
 
 .home-logo-google {
     width: 1.28em;
-    bottom: .05em;
 }
 
 .home-logo-snapchat {
-    width: 1.315em;
-    bottom: .05em;
+    width: 1.4em;
+    margin-top: -.1em;
 }
 
 .home-logo-dropbox {
@@ -258,7 +273,7 @@ a.nav-page-link:hover {
 
 .home-logo-apple {
     width: 1.2em;
-    bottom: .18em;
+    margin-top: -.24em;
 }
 
 .home-logo-robinhood {
@@ -267,5 +282,4 @@ a.nav-page-link:hover {
 
 .home-logo-twosigma {
     width: 1.4em;
-    bottom: .05em;
 }
