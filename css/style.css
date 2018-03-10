@@ -129,6 +129,13 @@ a.nav-page-link:hover {
     margin-bottom: 1em;
 }
 
+.home-404 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+
 .full-width-img {
     width: 100%;
 }
