@@ -5,15 +5,32 @@ body {
     color: #464242;
 }
 
+a {
+    text-decoration: none;
+    transition: .1s;
+    color: #679dc1;
+}
+
+p {
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #464242;
+    text-align: justify;
+}
+
 figcaption {
     font-style: italic;
 }
 
-table { border-spacing: 0px; }
+table {
+    border-spacing: 0;
+}
 
-th, td { padding: 0px; }
+th, td {
+    padding: 0;
+}
 
-td h2{
+td h2 {
     margin-top: .3em;
     margin-bottom: .3em;
 }
@@ -27,101 +44,73 @@ tr img {
     vertical-align: text-top;
 }
 
-.nav-header {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    text-align: justify;
+.clear-float {
+    clear: both;
 }
 
-.nav-header:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
+.align-left {
+    float: left;
 }
 
-.nav-header-name {
-    width: 20em;
-    overflow: hidden;
+.align-right {
+    float: right;
 }
 
 .no-bold {
     font-weight: normal;
 }
 
-.nav-images {
-    display: inline-block;
-    vertical-align: baseline;
-}
-
 .no-wrap {
-    white-space:nowrap
+    white-space: nowrap
 }
 
-p {
-    font-weight: normal;
-    font-size: 1.1em;
-    color: #464242;
-    text-align: justify;
-}
-
-a {
-    text-decoration: none;
-    transition: .1s;
-    color: #679dc1;
-}
-
-a.nav-image-link {
-    opacity: 0.5;
-}
-
-a.nav-image-link:active,
-a.nav-image-link:hover {
-    opacity: .8;
-}
-
-.logo-link-img {
-    width: 2em;
-}
-
-.logo-link-img-devpost {
-    width: 2.3em;
-}
-
-.logo-link-img-mail {
-    width: 2.1em;
-}
-
-.nav-all-pages {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1em;
-}
-
-.nav-page {
-    list-style-type: none;
-}
-
-a.nav-page-link {
-    font-size: 1.25em;
-}
-
-a.nav-page-link:active,
-a.nav-page-link:hover {
-    color: #1e4d6f;
-    border-bottom: solid #76b5e2;
-}
-
-.current-link {
-    color: #1e4d6f;
-    border-bottom: solid #76b5e2;
+.full-width-img {
+    width: 100%;
 }
 
 .text-align-center {
     text-align: center;
 }
 
+/* Navigation */
+.nav-home-image {
+    width: 20em;
+    overflow: hidden;
+}
+
+.nav-bar {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.nav-bar:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-bar-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a.nav-bar-link { font-size: 1.25em; }
+a.nav-bar-link:active,
+a.nav-bar-link:hover { color: #1e4d6f; border-bottom: solid #76b5e2; }
+a.nav-bar-link-selected { color: #1e4d6f; border-bottom: solid #76b5e2; }
+
+.nav-social-images { display: inline-block; vertical-align: baseline; }
+a.nav-social-image-link { opacity: 0.5; }
+a.nav-social-image-link:active,
+a.nav-social-image-link:hover { opacity: .8; }
+.logo-social-image { width: 2em; }
+.logo-social-image-mail { width: 2.1em; }
+
+/* Home page */
 .home-center-header {
     font-size: 2.5em;
     color: #333;
@@ -129,15 +118,48 @@ a.nav-page-link:hover {
     margin-bottom: 1em;
 }
 
-.home-404 {
-    font-size: 2em;
-    color: #333;
-    margin-top: 1.2em;
-    margin-bottom: 1em;
-}
+.logo-default { margin-left: .15em; width: 1.2em; }
 
-.full-width-img {
-    width: 100%;
+.logo-apple { width: 1.2em; margin-top: -.24em; }
+.logo-apple-link { color: #999999; }
+.logo-apple-link:active,
+.logo-apple-link:hover { color: #e8e8e8; }
+
+.logo-dropbox { width: 1.5em; }
+.logo-dropbox-link { color: #0062ff; }
+.logo-dropbox-link:active,
+.logo-dropbox-link:hover { color: #86c8ff; }
+
+.logo-google { width: 1.28em; }
+.logo-google-link { color: #26a741; }
+.logo-google-link:active,
+.logo-google-link:hover { color: #00f334; }
+
+.logo-northeastern { width: 1.5em; }
+.logo-northeastern-link { color: #c70000; }
+.logo-northeastern-link:active,
+.logo-northeastern-link:hover { color: #ff6d6d; }
+
+.logo-robinhood { width: 1em; }
+.logo-robinhood-link { color: #20ce99; }
+.logo-robinhood-link:active,
+.logo-robinhood-link:hover { color: #25f9b8; }
+
+.logo-snapchat { width: 1.4em; margin-top: -.1em; }
+.logo-snapchat-link { color: #e7e708; }
+.logo-snapchat-link:active,
+.logo-snapchat-link:hover { color: #f9f90c; }
+
+.logo-twosigma { width: 1.4em; }
+.logo-twosigma-link { color: #0099a6; }
+.logo-twosigma-link:active,
+.logo-twosigma-link:hover { color: #22dcec; }
+
+/* Blog */
+.blog-navigation {
+    margin-top: 1.3em;
+    font-size: 1.4em;
+    font-style: italic;
 }
 
 .inline-image-snap {
@@ -164,129 +186,9 @@ a.nav-page-link:hover {
     top: 1px;
 }
 
-.rubiks-cube-video {
-    width: 560px;
-    height: 315px;
-    display: block;
-    margin: auto;
-    border: 0px;
-}
-
-.blog-navigation {
-    margin-top: 1.3em;
-    font-size: 1.4em;
-    font-style: italic;
-}
-
-.clear-float {
-    clear: both;
-}
-
-.align-left {
-    float: left;
-}
-
-.align-right {
-    float: right;
-}
-
-.home-northeastern-link {
-    color: #c70000;
-}
-
-.home-northeastern-link:active,
-.home-northeastern-link:hover {
-    color: #ff6d6d;
-}
-
-.home-google-link {
-    color: #26a741;
-}
-
-.home-google-link:active,
-.home-google-link:hover {
-    color: #00f334;
-}
-
-.home-snapchat-link {
-    color: #e7e708;
-}
-
-.home-snapchat-link:active,
-.home-snapchat-link:hover {
-    color: #f9f90c;
-}
-
-.home-dropbox-link {
-    color: #0062ff;
-}
-
-.home-dropbox-link:active,
-.home-dropbox-link:hover {
-    color: #86c8ff;
-}
-
-
-.home-apple-link {
-    color: #999999;
-}
-
-.home-apple-link:active,
-.home-apple-link:hover {
-    color: #e8e8e8;
-}
-
-.home-robinhood-link {
-    color: #20ce99;
-}
-
-.home-robinhood-link:active,
-.home-robinhood-link:hover {
-    color: #25f9b8;
-}
-
-
-.home-twosigma-link {
-    color: #0099a6;
-}
-
-.home-twosigma-link:active,
-.home-twosigma-link:hover {
-    color: #22dcec;
-}
-
-.home-logo {
-    margin-left: .15em;
-    width: 1.2em;
-}
-
-.home-logo-northeastern {
-    margin-left: .15em;
-    width: 1.5em;
-}
-
-.home-logo-google {
-    width: 1.28em;
-}
-
-.home-logo-snapchat {
-    width: 1.4em;
-    margin-top: -.1em;
-}
-
-.home-logo-dropbox {
-    width: 1.5em;
-}
-
-.home-logo-apple {
-    width: 1.2em;
-    margin-top: -.24em;
-}
-
-.home-logo-robinhood {
-    width: 1em;
-}
-
-.home-logo-twosigma {
-    width: 1.4em;
+.header-404 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
 }
