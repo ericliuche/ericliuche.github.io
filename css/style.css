@@ -13,7 +13,7 @@ a {
 
 p {
     font-weight: normal;
-    font-size: 1.1em;
+    font-size: 1.118em;
     color: #464242;
     text-align: justify;
 }
@@ -98,7 +98,7 @@ tr img {
     list-style-type: none;
 }
 
-a.nav-bar-link { font-size: 1.25em; }
+a.nav-bar-link { font-size: 1.45em; }
 a.nav-bar-link:active,
 a.nav-bar-link:hover { color: #1e4d6f; border-bottom: solid #76b5e2; }
 a.nav-bar-link-selected { color: #1e4d6f; border-bottom: solid #76b5e2; }
@@ -112,7 +112,7 @@ a.nav-social-image-link:hover { opacity: .8; }
 
 /* Home page */
 .home-center-header {
-    font-size: 2.5em;
+    font-size: 2.65em;
     color: #333;
     margin-top: 1.2em;
     margin-bottom: 1em;
