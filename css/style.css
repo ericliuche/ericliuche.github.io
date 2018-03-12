@@ -160,8 +160,8 @@ h2.table-row {
 
 /* Blog */
 .blog-navigation {
-    margin-top: 1.3em;
-    font-size: 1.4em;
+    margin: 1.3em 0 4em 0;
+    font-size: 1.2em;
     font-style: italic;
 }
 
@@ -194,4 +194,13 @@ h2.table-row {
     color: #333;
     margin-top: 1.2em;
     margin-bottom: 1em;
+}
+
+.blog-post {
+    font-size: 1.175em;
+    padding-bottom: .1em;
+}
+
+.blog-post-date {
+    padding-right: 2em;
 }
